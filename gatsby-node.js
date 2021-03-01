@@ -35,7 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
       }
 
       // Resolve the paths to our template
-      const sitePostTemplate = path.resolve("./src/pages/siteposts.js")
+      const sitePostTemplate = path.resolve("./src/templates/siteposts.js")
 
       // Then for each result we can create a page
       result.data.allContentfulSitePost.edges.forEach(edge => {

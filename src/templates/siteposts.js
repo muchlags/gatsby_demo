@@ -10,7 +10,7 @@ const SitePosts = ({ data }) => {
       <SEO title={heading} />
       <div className="ourpost">
         <h1>{heading}</h1>
-        <img alt={title} src={image.file.url} />
+        <img alt={title} src={image.fields.file.url} />
         <Link to="/siteposts">View more posts</Link>
         <Link to="\/">Back to Home</Link>
       </div>
